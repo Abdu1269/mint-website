@@ -10,9 +10,9 @@ import "swiper/css/pagination";
 import { PulseBeamsSecond } from "./CTA/cta";
 
 // Importing images correctly
-import banner1 from "/public/banner-1.jpeg";
-import banner2 from "/public/banner-2.jpeg";
-import banner3 from "/public/banner-3.png";
+import banner1 from "/public/static/banner-1.jpeg";
+import banner2 from "/public/static/banner-2.jpeg";
+import banner3 from "/public/static/banner-3.png";
 
 export default function Hero() {
   const bannerData = [
