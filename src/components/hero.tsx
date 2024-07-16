@@ -8,19 +8,23 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { PulseBeamsSecond } from "./CTA/cta";
+
+import banner1 from "../../public/banner-1.jpeg";
+import banner2 from ".../../public/banner-2.jpeg";
+import banner3 from "../../public/banner-3.png";
 export default function Hero() {
   const bannerData = [
     {
       title: "Empowering Tech Companies to Thrive",
       description:
         "Join the leading business directory for tech companies. Boost your visibility, connect with clients, and grow your business with us.",
-      image: "/banner-2.jpeg",
+      image: banner2,
     },
     {
       title: "Unite with Tech Innovators Worldwide",
       description:
         "Discover a platform where tech companies enhance their reach, credibility, and connections. Get listed and grow your business today.",
-      image: "/banner-1.jpeg",
+      image: banner1,
     },
     {
       title: "Your Gateway to Tech Excellence",
