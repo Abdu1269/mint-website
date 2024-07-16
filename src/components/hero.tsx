@@ -9,9 +9,11 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { PulseBeamsSecond } from "./CTA/cta";
 
-import banner1 from "../../public/banner-1.jpeg";
-import banner2 from ".../../public/banner-2.jpeg";
-import banner3 from "../../public/banner-3.png";
+// Importing images correctly
+import banner1 from "/public/banner-1.jpeg";
+import banner2 from "/public/banner-2.jpeg";
+import banner3 from "/public/banner-3.png";
+
 export default function Hero() {
   const bannerData = [
     {
@@ -30,7 +32,7 @@ export default function Hero() {
       title: "Your Gateway to Tech Excellence",
       description:
         "Register your tech company and unlock opportunities for growth, networking, and industry insights. Elevate your business with our trusted directory.",
-      image: "/banner-3.png",
+      image: banner3,
     },
   ];
 
