@@ -9,10 +9,10 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { PulseBeamsSecond } from "./CTA/cta";
 
-// Importing images correctly
-import banner1 from "/public/static/banner-1.jpeg";
-import banner2 from "/public/static/banner-2.jpeg";
-import banner3 from "/public/static/banner-3.png";
+// Import images from the public directory
+import banner1 from "/public/banner-1.jpeg";
+import banner2 from "/public/banner-2.jpeg";
+import banner3 from "/public/banner-3.png";
 
 export default function Hero() {
   const bannerData = [
@@ -55,7 +55,7 @@ export default function Hero() {
         >
           {bannerData.map((item, index) => (
             <SwiperSlide key={index}>
-              <div className="flex flex-col-reverse justify-center lg:flex-row min-h-screen  z-0">
+              <div className="flex flex-col-reverse justify-center lg:flex-row min-h-screen z-0">
                 <section className="w-full lg:w-[50%] flex flex-col lg:translate-x-10 @md:px-2 lg:px-5 lg:p-10 lg:pt-36 justify-start items-center">
                   <div className="w-full h-auto lg:pt-7">
                     <h1 className="__classNameName_e826f1 text-3xl lg:text-5xl lg:text-7xl text-white font-extrabold">
@@ -73,7 +73,7 @@ export default function Hero() {
                   <Image
                     src={item.image}
                     alt="Hero Image"
-                    fill
+                    layout="fill"
                     className="object-cover z-10 rounded-3xl"
                     priority={true}
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
