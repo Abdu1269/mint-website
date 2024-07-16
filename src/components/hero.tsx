@@ -68,7 +68,7 @@ export default function Hero() {
                     src={item.image}
                     alt="Hero Image"
                     fill
-                    className="h-full w-full object-cover z-10 rounded-3xl"
+                    className="object-cover z-10 rounded-3xl"
                   />
                 </section>
               </div>
