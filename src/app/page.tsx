@@ -4,10 +4,10 @@ import Sectors from "@/components/sectors/page";
 import ServicesPage from "@/components/services/page";
 import FrightsPage from "@/components/fright-types/page";
 import Feature from "@/components/features/feature";
-import Card1 from "@/components/card1/card1";
+import Benefit from "@/components/BenefitCard/benefits";
 import Stats from "@/components/stats/pages";
 import Steps from "@/components/steps/steps";
-import Card2 from "@/components/card2";
+import BeFirstSection from "@/components/be-first";
 import ContactUs from "@/components/contactus";
 import Faq from "@/components/faq";
 import CloudLogo from "@/components/cloudlogo/page";
@@ -17,9 +17,9 @@ export default function Home() {
     <div>
       <Hero />
       <Feature />
-      <Card1 />
+      <Benefit />
       <Stats />
-      <Card2 />
+      <BeFirstSection />
       <CloudLogo />
       <Steps />
       <Testimonials />

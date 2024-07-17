@@ -71,7 +71,7 @@ export default function Hero() {
                 </section>
                 <section className="relative w-full lg:w-[50%] flex items-center justify-center z-0 my-20">
                   <Image
-                    src={"/static/banner-2.jpeg"}
+                    src={item.image}
                     alt="Hero Image"
                     layout="fill"
                     className="object-cover z-10 rounded-3xl"

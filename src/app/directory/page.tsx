@@ -68,7 +68,7 @@ export default function Directory() {
   // }
 
   return (
-    <div className="h-screen">
+    <div>
       <div className="bg-slate-700 h-20 w-full mx-auto shadow-2xl text-white"></div>
 
       <div className="bg-slate-50  p-4 flex justify-center">
@@ -104,7 +104,7 @@ export default function Directory() {
               </button>
             </div>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-3  h-screen">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-3">
             <nav className="card bg-base-100 shadow-2xl text-white p-4 rounded-2xl">
               <div className="flex flex-col items-center justify-center">
                 <h2 className="text-3xl text-slate-600 font-semibold mb-4 uppercase text-center">
